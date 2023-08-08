@@ -100,13 +100,13 @@ god.destroy();
 //  action 3:   god protects
 god.protect();
 //  7)
-//  Noun:  tree
-//  action 1:  tree grows
-tree.grow();
-//  action 2:  tree sheds its leaves
-tree.shedLeaves();
-//  action 3:  tree bends
-tree.bend();
+//  Noun:  webPage
+//  action 1:  webPage gets information from server
+webPage.getInformation();
+//  action 2:  webPage sends information to the server
+webPage.sendInformation();
+//  action 3:  webPage updates information on the server
+webPage.updateInformation();
 //  8)
 //  Noun:  bird
 //  action 1:  bird chirps
